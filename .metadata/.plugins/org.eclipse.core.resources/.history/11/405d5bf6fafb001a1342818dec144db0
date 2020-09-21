@@ -1,0 +1,14 @@
+package com.murugesh.trainings.ws.sumwsclient;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SumWsTest {
+
+	@Test
+	public void calculateSumShouldReturnValidResponse() {
+		SumWsSe
+	}
+
+}

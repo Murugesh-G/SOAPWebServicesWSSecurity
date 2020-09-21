@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SumWsTest" project="sumwsclient" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.murugesh.trainings.ws.sumwsclient.SumWsTest" time="4.298">
+    <testcase name="calculateSumShouldReturnValidResponse" classname="com.murugesh.trainings.ws.sumwsclient.SumWsTest" time="4.298"/>
+  </testsuite>
+</testrun>

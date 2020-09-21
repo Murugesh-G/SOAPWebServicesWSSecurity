@@ -1,0 +1,36 @@
+package com.murugesh.trainings.ws.sumwsclient;
+
+import static org.junit.Assert.*;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.junit.Test;
+
+import com.murugesh.trainings.ws.SumRequest;
+import com.murugesh.trainings.ws.SumResponse;
+import com.murugesh.trainings.ws.SumWSService;
+import com.murugesh.trainings.ws.SumWs;
+
+public class SumWsTest {
+
+	@Test
+	public void calculateSumShouldReturnValidResponse() {
+		try {
+			SumWSService service = new SumWSService((new URL("http://localhost:8080/sumws/services/sumService?wsdl")));
+			SumWs port = service.getSumWsPort();
+			SumRequest request = new SumRequest();
+			request.setNum1(10);
+			request.setNum2(20);
+
+			SumResponse response = port.calculateResponse(request);
+			assertNotNull(response);
+			assertEquals(30, response.getResult());
+
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

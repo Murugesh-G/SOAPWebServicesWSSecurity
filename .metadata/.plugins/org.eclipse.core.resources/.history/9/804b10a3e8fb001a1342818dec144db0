@@ -1,0 +1,9 @@
+package com.murugesh.trainings.ws;
+
+import com.murugesh.trainings.ws.dto.SumRequest;
+import com.murugesh.trainings.ws.dto.SumResponse;
+
+public interface SumWS {
+
+	SumResponse calculateResponse(SumRequest request);
+}

@@ -1,0 +1,20 @@
+package com.murugesh.trainings.ws.sumwsclient;
+
+import static org.junit.Assert.*;
+
+import java.net.URL;
+
+import org.junit.Test;
+
+import com.murugesh.trainings.ws.SumWSService;
+import com.murugesh.trainings.ws.SumWs;
+
+public class SumWsTest {
+
+	@Test
+	public void calculateSumShouldReturnValidResponse() {
+		SumWSService service=new SumWSService((new URL("http://localhost:8080/sumws/services/sumService?wsdl")));
+		
+	}
+
+}

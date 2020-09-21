@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+H:\Software_Development\SOAP-Web-Services-WS-Security-latest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3077669862.index

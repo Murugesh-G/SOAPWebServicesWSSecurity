@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+H:\Software_Development\SOAP-Web-Services-WS-Security-latest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4080132646.index
+\sumws\src\main\java
+H:\Software_Development\SOAP-Web-Services-WS-Security-latest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3077669862.index
+\sumws\src\main\resources
